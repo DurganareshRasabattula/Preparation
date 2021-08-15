@@ -232,6 +232,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>CoreJava-Concurrency-Basic</module>
+        <module>CoreJava-Concurrency-Collections</module>
+
     </modules>
 
     <properties>
