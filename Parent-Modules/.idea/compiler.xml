@@ -8,8 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CoreJava-Concurrency-Collections" />
-        <module name="CoreJava-Concurrency-Basic" />
         <module name="CoreJava-IO" />
+        <module name="CoreJava-String-Algorithms" />
+        <module name="CoreJava-Concurrency-Basic" />
+        <module name="CoreJava-Streams" />
+        <module name="CoreJava-String-Conversions" />
       </profile>
     </annotationProcessing>
   </component>
