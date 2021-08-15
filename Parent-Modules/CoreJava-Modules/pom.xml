@@ -262,6 +262,7 @@
         <module>CoreJava-Streams</module>
         <module>CoreJava-String-Algorithms</module>
         <module>CoreJava-String-Conversions</module>
+        <module>CoreJava-Arrays-Convert</module>
 
     </modules>
 

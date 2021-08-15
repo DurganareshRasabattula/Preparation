@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CoreJava-Concurrency-Collections" />
+        <module name="CoreJava-Arrays-Convert" />
         <module name="CoreJava-IO" />
-        <module name="CoreJava-String-Algorithms" />
-        <module name="CoreJava-Concurrency-Basic" />
         <module name="CoreJava-Streams" />
         <module name="CoreJava-String-Conversions" />
+        <module name="CoreJava-Concurrency-Collections" />
+        <module name="CoreJava-String-Algorithms" />
+        <module name="CoreJava-Concurrency-Basic" />
       </profile>
     </annotationProcessing>
   </component>
