@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CoreJava-Security" />
+        <module name="CoreJava-Regex" />
+        <module name="CoreJava-Concurrency-Collections" />
         <module name="CoreJava-Arrays-Convert" />
         <module name="CoreJava-IO" />
-        <module name="CoreJava-Regex" />
         <module name="CoreJava-Streams" />
         <module name="CoreJava-String-Conversions" />
-        <module name="CoreJava-Concurrency-Collections" />
+        <module name="CoreJava-8" />
+        <module name="CoreJava-Networking" />
         <module name="CoreJava-String-Algorithms" />
         <module name="CoreJava" />
         <module name="CoreJava-Concurrency-Basic" />
