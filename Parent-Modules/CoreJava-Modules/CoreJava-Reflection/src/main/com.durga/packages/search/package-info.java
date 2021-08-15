@@ -1,0 +1,2 @@
+@Searchable
+package packages.search;

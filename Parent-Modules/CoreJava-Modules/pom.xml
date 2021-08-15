@@ -263,6 +263,10 @@
         <module>CoreJava-String-Algorithms</module>
         <module>CoreJava-String-Conversions</module>
         <module>CoreJava-Arrays-Convert</module>
+        <module>CoreJava-NIO</module>
+        <module>CoreJava-Reflection</module>
+        <module>CoreJava-Regex</module>
+        <module>CoreJava-Security</module>
 
     </modules>
 
