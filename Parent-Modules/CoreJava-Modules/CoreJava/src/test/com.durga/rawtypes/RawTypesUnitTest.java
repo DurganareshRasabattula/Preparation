@@ -1,0 +1,17 @@
+package rawtypes;
+
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RawTypesUnitTest {
+    @Test
+    public void shouldCreateListUsingRawTypes() {
+        @SuppressWarnings("rawtypes")
+        List myList = new ArrayList();
+        myList.add(new Object());
+        myList.add("2");
+        myList.add(Integer.valueOf(1));
+    }
+}

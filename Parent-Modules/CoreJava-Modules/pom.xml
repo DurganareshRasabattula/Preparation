@@ -267,6 +267,7 @@
         <module>CoreJava-Reflection</module>
         <module>CoreJava-Regex</module>
         <module>CoreJava-Security</module>
+        <module>CoreJava</module>
 
     </modules>
 

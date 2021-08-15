@@ -15,6 +15,7 @@
         <module name="CoreJava-String-Conversions" />
         <module name="CoreJava-Concurrency-Collections" />
         <module name="CoreJava-String-Algorithms" />
+        <module name="CoreJava" />
         <module name="CoreJava-Concurrency-Basic" />
         <module name="CoreJava-Reflection" />
         <module name="CoreJava-NIO" />
@@ -23,7 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CoreJava-Security" options="--add-exports java.base/sun.security.util=ALL-UNNAMED --add-exports java.base/sun.security.x509=ALL-UNNAMED" />
+      <module name="CoreJava-Security" options="" />
     </option>
   </component>
 </project>
