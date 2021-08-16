@@ -289,6 +289,24 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.2.2.RELEASE</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>13</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.9</version>
+        </dependency>
 
 
 
@@ -327,6 +345,13 @@
         <module>CoreJava-OOP-Others</module>
         <module>CoreJava-OOP-Patterns</module>
         <module>CoreJava-OOP-Types</module>
+        <module>CoreJava-Console</module>
+        <module>CoreJava-Jar</module>
+        <module>CoreJava-JVM</module>
+        <module>CoreJava-Lambdas</module>
+        <module>CoreJava-PERF</module>
+        <module>CoreJava-Annotations</module>
+        <module>CoreJava-Sun</module>
 
 
     </modules>

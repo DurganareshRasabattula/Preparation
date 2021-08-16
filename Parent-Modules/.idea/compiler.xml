@@ -7,15 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CoreJava-JVM" />
         <module name="CoreJava-Regex" />
         <module name="CoreJava-Concurrency-Collections" />
         <module name="CoreJava-Collections-Maps" />
+        <module name="CoreJava-Annotations" />
         <module name="CoreJava-OOP-Types" />
+        <module name="CoreJava-Lambdas" />
         <module name="CoreJava-Arrays-Convert" />
         <module name="CoreJava-Exceptions" />
         <module name="CoreJava-Collections-ArrayList" />
+        <module name="CoreJava-Sun" />
         <module name="CoreJava-Networking" />
         <module name="CoreJava-Lang-Operators" />
+        <module name="CoreJava-Jar" />
         <module name="CoreJava-Lang-Syntax" />
         <module name="CoreJava-Lang" />
         <module name="CoreJava-String-Algorithms" />
@@ -30,11 +35,13 @@
         <module name="CoreJava-OOP-Methods" />
         <module name="CoreJava-Collections-List" />
         <module name="CoreJava-IO" />
+        <module name="CoreJava-PERF" />
         <module name="CoreJava-Streams" />
         <module name="CoreJava-OOP-Modifiers" />
         <module name="CoreJava-String-Conversions" />
         <module name="CoreJava-8" />
         <module name="CoreJava-OOP-Patterns" />
+        <module name="CoreJava-Console" />
         <module name="CoreJava-Lang-Math" />
         <module name="CoreJava" />
         <module name="CoreJava-OOP-Generics" />
@@ -44,6 +51,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CoreJava-Security" options="" />
+      <module name="CoreJava-Sun" options="--add-exports jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
     </option>
   </component>
 </project>
