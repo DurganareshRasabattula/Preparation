@@ -352,6 +352,7 @@
         <module>CoreJava-PERF</module>
         <module>CoreJava-Annotations</module>
         <module>CoreJava-Sun</module>
+        <module>AllAboutLambdas</module>
 
 
     </modules>

@@ -11,6 +11,7 @@
         <module name="CoreJava-Regex" />
         <module name="CoreJava-Concurrency-Collections" />
         <module name="CoreJava-Collections-Maps" />
+        <module name="AllAboutLambdas" />
         <module name="CoreJava-Annotations" />
         <module name="CoreJava-OOP-Types" />
         <module name="CoreJava-Lambdas" />
@@ -51,7 +52,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CoreJava-Security" options="" />
-      <module name="CoreJava-Sun" options="--add-exports jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED --add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+      <module name="CoreJava-Sun" options="" />
     </option>
   </component>
 </project>
