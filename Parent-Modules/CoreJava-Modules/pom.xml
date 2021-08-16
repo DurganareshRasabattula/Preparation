@@ -270,6 +270,26 @@
             <artifactId>streamex</artifactId>
             <version>0.6.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.carrotsearch/hppc -->
+        <dependency>
+            <groupId>com.carrotsearch</groupId>
+            <artifactId>hppc</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
 
 
     </dependencies>
@@ -289,6 +309,25 @@
         <module>CoreJava</module>
         <module>CoreJava-8</module>
         <module>CoreJava-Networking</module>
+        <module>CoreJava-Collections</module>
+        <module>CoreJava-Collections-ArrayList</module>
+        <module>CoreJava-Collections-List</module>
+        <module>CoreJava-Collections-Maps</module>
+        <module>CoreJava-Exceptions</module>
+        <module>CoreJava-Lang</module>
+        <module>CoreJava-Lang-Math</module>
+        <module>CoreJava-Lang-Operators</module>
+        <module>CoreJava-Lang-Syntax</module>
+        <module>CoreJava-Lang-Syntax</module>
+        <module>CoreJava-OOP-Constructors</module>
+        <module>CoreJava-OOP-Generics</module>
+        <module>CoreJava-OOP-Inheritance</module>
+        <module>CoreJava-OOP-Methods</module>
+        <module>CoreJava-OOP-Modifiers</module>
+        <module>CoreJava-OOP-Others</module>
+        <module>CoreJava-OOP-Patterns</module>
+        <module>CoreJava-OOP-Types</module>
+
 
     </modules>
 

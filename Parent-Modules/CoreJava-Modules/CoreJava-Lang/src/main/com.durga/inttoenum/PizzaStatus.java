@@ -1,0 +1,38 @@
+package inttoenum;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * @author durga on 8/12/2021
+ */
+public enum PizzaStatus {
+    ORDERED(5),
+    READY(2),
+    DELIVERED(0);
+
+    private final int timeToDelivery;
+
+    PizzaStatus(int timeToDelivery) {
+        this.timeToDelivery = timeToDelivery;
+    }
+
+    public int getTimeToDelivery() {
+        return timeToDelivery;
+    }
+
+    private static final Map<Integer, PizzaStatus> timeToDeliveryToEnumValuesMapping = new HashMap<>();
+
+    static {
+        for (PizzaStatus pizzaStatus : PizzaStatus.values()) {
+            timeToDeliveryToEnumValuesMapping.put(
+                    pizzaStatus.getTimeToDelivery(),
+                    pizzaStatus
+            );
+        }
+    }
+
+    public static PizzaStatus castIntToEnum(int timeToDelivery) {
+        return timeToDeliveryToEnumValuesMapping.get(timeToDelivery);
+    }
+}

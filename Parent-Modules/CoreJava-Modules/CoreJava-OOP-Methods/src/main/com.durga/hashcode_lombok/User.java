@@ -1,0 +1,45 @@
+package hashcode_lombok;
+
+import lombok.EqualsAndHashCode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+/**
+ * @author durga on 8/12/2021
+ */
+@EqualsAndHashCode
+public class User {
+    private final Logger logger = LoggerFactory.getLogger(User.class);
+    private long id;
+    private String name;
+    private String email;
+
+    public User(long id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+}

@@ -7,20 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CoreJava-Security" />
         <module name="CoreJava-Regex" />
         <module name="CoreJava-Concurrency-Collections" />
+        <module name="CoreJava-Collections-Maps" />
+        <module name="CoreJava-OOP-Types" />
         <module name="CoreJava-Arrays-Convert" />
-        <module name="CoreJava-IO" />
-        <module name="CoreJava-Streams" />
-        <module name="CoreJava-String-Conversions" />
-        <module name="CoreJava-8" />
+        <module name="CoreJava-Exceptions" />
+        <module name="CoreJava-Collections-ArrayList" />
         <module name="CoreJava-Networking" />
+        <module name="CoreJava-Lang-Operators" />
+        <module name="CoreJava-Lang-Syntax" />
+        <module name="CoreJava-Lang" />
         <module name="CoreJava-String-Algorithms" />
-        <module name="CoreJava" />
         <module name="CoreJava-Concurrency-Basic" />
         <module name="CoreJava-Reflection" />
         <module name="CoreJava-NIO" />
+        <module name="CoreJava-Security" />
+        <module name="CoreJava-OOP-Constructors" />
+        <module name="CoreJava-Collections" />
+        <module name="CoreJava-OOP-Others" />
+        <module name="CoreJava-OOP-Inheritance" />
+        <module name="CoreJava-OOP-Methods" />
+        <module name="CoreJava-Collections-List" />
+        <module name="CoreJava-IO" />
+        <module name="CoreJava-Streams" />
+        <module name="CoreJava-OOP-Modifiers" />
+        <module name="CoreJava-String-Conversions" />
+        <module name="CoreJava-8" />
+        <module name="CoreJava-OOP-Patterns" />
+        <module name="CoreJava-Lang-Math" />
+        <module name="CoreJava" />
+        <module name="CoreJava-OOP-Generics" />
       </profile>
     </annotationProcessing>
   </component>

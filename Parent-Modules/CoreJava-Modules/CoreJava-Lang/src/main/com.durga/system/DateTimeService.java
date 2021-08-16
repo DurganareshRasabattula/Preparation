@@ -1,0 +1,18 @@
+package system;
+
+import java.util.Date;
+
+/**
+ * @author durga on 8/12/2021
+ */
+public class DateTimeService {
+    // One hour from now
+    public long nowPlusOneHour() {
+        return System.currentTimeMillis() + 3600 * 1000L;
+    }
+
+    // Human-readable format
+    public String nowPrettyPrinted() {
+        return new Date(System.currentTimeMillis()).toString();
+    }
+}
