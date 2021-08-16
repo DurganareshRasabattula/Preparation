@@ -45,6 +45,30 @@
             <artifactId>cactoos</artifactId>
             <version>0.43</version>
         </dependency>
+        <dependency>
+            <groupId>net.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-standalone</artifactId>
+            <version>2.20.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sun.corba/orb -->
+        <dependency>
+            <groupId>com.sun.corba</groupId>
+            <artifactId>orb</artifactId>
+            <version>9.1</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
